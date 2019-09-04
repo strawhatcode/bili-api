@@ -518,7 +518,7 @@
 - keyword：根据关键字来查找，匹配***title***、***description***、***author***里的字
 - order：排序方式，默认是***pubdate***
 
-```json
+```
 {
     "status": true,
     "data": {
@@ -553,7 +553,7 @@
             },
         ],
         "count": 165,	//up主视频总数
-        "pages": 2 		//视频页数
+        "pages": 2 	//视频页数
     }
 }
 ```
