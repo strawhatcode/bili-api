@@ -354,10 +354,10 @@
                     "ugc_pay": 0,
                     "is_cooperation": 0,
                     "ugc_pay_preview": 0
-              	}	
-			}
-		]
-	}
+               }	
+            }
+        ]
+    }
 }
 ```
 
@@ -518,7 +518,7 @@
 - keyword：根据关键字来查找，匹配***title***、***description***、***author***里的字
 - order：排序方式，默认是***pubdate***
 
-```
+```json
 {
     "status": true,
     "data": {
