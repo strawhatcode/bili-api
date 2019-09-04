@@ -13,25 +13,25 @@
 
 ```json
 { 
-  "code": 0,      				//响应代码 
+  "code": 0,		//响应代码 
   "message": "0", 
   "ttl": 1,      
-  "data": {        				//返回的数据
-    "aid": 65144388,  			//视频av号
-    "videos": 1, 	 			//该视频有多少p
-    "tid": 27,    				//分区id
-    "tname": "综合", 			   //子分区名字
-    "copyright": 1, 			//版权，1为未经允许不能转载
-    "pic": "", 					//视频封面
-    "title": "", 				//视频标题
-    "pubdate": 1566646253,		 //发布时间的时间戳
-    "ctime": 1566631298, 		 //创建时间的时间戳
-    "desc": "",  				//视频的描述
+  "data": {			//返回的数据
+    "aid": 65144388,	//视频av号
+    "videos": 1, 	//该视频有多少p
+    "tid": 27,    	//分区id
+    "tname": "综合", 	 //子分区名字
+    "copyright": 1, 	//版权，1为未经允许不能转载
+    "pic": "", 			//视频封面
+    "title": "", 		//视频标题
+    "pubdate": 1566646253,	 //发布时间的时间戳
+    "ctime": 1566631298, 	 //创建时间的时间戳
+    "desc": "",  			//视频的描述
     "state": 0,  
-    "attribute": 16768,  		 //分区号
-    "duration": 572,     		 //视频的长度(秒)
+    "attribute": 16768,  	 //分区号
+    "duration": 572,     	 //视频的长度(秒)
     "mission_id": 11740,  
-    "rights": {					//一些权限
+    "rights": {				//一些权限
       "bp": 0,
       "elec": 0,
       "download": 1,
@@ -44,51 +44,51 @@
       "is_cooperation": 0,
       "ugc_pay_preview": 0
     },
-    "owner": {  				 //up主信息
-      "mid": 730732,  			 //up主uid
-      "name": "", 				 //up主昵称
-      "face": "" 				 //up主头像
+    "owner": {  		//up主信息
+      "mid": 730732,  	 //up主uid
+      "name": "", 		 //up主昵称
+      "face": "" 		 //up主头像
     },
-    "stat": { 				    //视频的一些信息统计
-      "aid": 65144388,  		//视频的av号
-      "view": 329792,   	     //播放量
-      "danmaku": 1656,  		//弹幕数
-      "reply": 923,     		//评论数
-      "favorite": 20258,  		//收藏数
-      "coin": 42323,  		    //硬币数
-      "share": 793,    		    //分享数
-      "now_rank": 0,  		    //现在排名
-      "his_rank": 48,  		    //历史排名
-      "like": 45113,  		    //点赞数
-      "dislike": 0     			//点踩数
+    "stat": { 			   //视频的一些信息统计
+      "aid": 65144388,  	//视频的av号
+      "view": 329792,    	//播放量
+      "danmaku": 1656,  	//弹幕数
+      "reply": 923,     	//评论数
+      "favorite": 20258,  	//收藏数
+      "coin": 42323,  		//硬币数
+      "share": 793,    		//分享数
+      "now_rank": 0,  		//现在排名
+      "his_rank": 48,  		//历史排名
+      "like": 45113,  		//点赞数
+      "dislike": 0     		//点踩数
     },
-    "dynamic": "",   			//up主发布视频时顺带发布的动态信息
-    "cid": 113060527,   		//弹幕库id
+    "dynamic": "",   		//up主发布视频时顺带发布的动态信息
+    "cid": 113060527,   	//弹幕库id
     "dimension": {
-      "width": 1920,   			//视频的宽度
-      "height": 1080,  			//视频的高度
+      "width": 1920,   		//视频的宽度
+      "height": 1080,  		//视频的高度
       "rotate": 0
     },
-    "no_cache": false,  		//缓存
-    "pages": [  			    //当前视频p的弹幕库信息，有多p的视频则有多条信息
+    "no_cache": false,  	//缓存
+    "pages": [  			//当前视频p的弹幕库信息，有多p的视频则有多条信息
       {
-        "cid": 113060527, 		//弹幕库id
-        "page": 1,        		//第几p
-        "from": "vupload",   	//视频来源，上传
+        "cid": 113060527, 	//弹幕库id
+        "page": 1,        	//第几p
+        "from": "vupload",   //视频来源，上传
         "part": "Doraemon_SF_fixed_x264", //up主上传该视频时的文件名
-        "duration": 572,  		//当前p视频的长度
+        "duration": 572,  	//当前p视频的长度
         "vid": "",
         "weblink": "",
         "dimension": {
-          "width": 1920,   		//视频的宽度
-          "height": 1080,  		//视频的高度
+          "width": 1920,   	//视频的宽度
+          "height": 1080,  	//视频的高度
           "rotate": 0
         }
       }
     ],
-    "staff": [   		//如果该视频是合作视频则会多出‘staff’属性，这是一个列表，存放合作的所有up主信息
+    "staff": [   	//如果该视频是合作视频则会多出‘staff’属性，这是一个列表，存放合作的所有up主信息
         {
-          "mid": 391679,   		 //up主uid
+          "mid": 391679,   		//up主uid
           "title": "UP主", 	    //合作中的描述，第一个一般是up主
           "name": "",   		//up主名称
           "face": "", 			//up主头像
@@ -129,10 +129,10 @@
 
 ```json
 {
-    "code": 0,    					//状态码
-    "message": "0",					//消息码
+    "code": 0,    	//状态码
+    "message": "0",	//消息码
     "ttl": 1, 
-    "data": { 					    //数据
+    "data": { 	//数据
         "50000005": {   			//视频av号
             "aid": 50000005, 		//视频av号
             "videos": 1,  			//视频p数
@@ -322,27 +322,27 @@
                 "coins": 478320,    //硬币数
                 "duration": "23:56",  //视频长度
                 "mid": 546195,      //up主uid
-                "others":[			//该up主其他上榜的视频信息
+                "others":[		//该up主其他上榜的视频信息
                     0: {
-					  "aid": ,
-					  "coins": ,
-					  "duration": ,
-					  "pic": ,
-					  "play": ,
-					  "pts": ,
-					  "rights": {} ,
-					  "title": ,
-					  "video_review": 
-            	    }
+                          "aid": ,
+                          "coins": ,
+                          "duration": ,
+                          "pic": ,
+                          "play": ,
+                          "pts": ,
+                          "rights": {} ,
+                          "title": ,
+                          "video_review": 
+            	    },
                 ],        
-                "pic": "", 			//视频封面图片
+                "pic": "",		//视频封面图片
                 "cid": 114232032,   //弹幕库id
                 "play": 1887861,    //播放量
                 "pts": 6235632,     //综合得分
-                "title": "",  		//视频标题
+                "title": "",		//视频标题
                 "trend": null,      //未知
                 "video_review": 52453,  //弹幕数
-                "rights": {  		//视频的一些权限信息？
+                "rights": {  	//视频的一些权限信息？
                     "bp": 0,
                     "elec": 0,
                     "download": 0,
@@ -354,9 +354,10 @@
                     "ugc_pay": 0,
                     "is_cooperation": 0,
                     "ugc_pay_preview": 0
-                }
-            }
+              	}	
+			}
 		]
+	}
 }
 ```
 
@@ -372,8 +373,8 @@
 
 ```json
 {
-    "code": 0,     		  //响应码
-    "data": {     		  //响应数据
+    "code": 0,		//响应码
+    "data": { 		//响应数据
         "display_num": 0, //未知？？  
         "count": 9,       //本月充电人数
         "total_count": 3366,  //总充电人数
@@ -428,7 +429,7 @@
         {
             "doc_id": 32580598,    //相簿文章id 
             "poster_uid": 391679,  //up主uid
-            "title": "",   		   //标题？？
+            "title": "",		//标题？？
             "description": "",     //描述
             "pictures": [],  	   //相簿中的图片
             "count": 6,            //图片数
@@ -521,24 +522,24 @@
 {
     "status": true,
     "data": {
-        "tlist": {    			 //分区列表，存放up主在某个分区投稿的数量，
+        "tlist": { 			//分区列表，存放up主在某个分区投稿的数量，
             "1": {
-                "tid": 1,   	 //分区id
-                "count": 2,  	 //投稿数量
+                "tid": 1, 		//分区id
+                "count": 2, 	//投稿数量
                 "name": "动画"    //分区名称
             }, 
         },
-        "vlist": [   			 //视频列表
+        "vlist": [			//视频列表
             {
                 "comment": 1823,   //该视频的评论数
                 "typeid": 193,     //该视频的子分区id
                 "play": 338538,    //播放量
                 "pic": "",		   //视频封面图片
                 "subtitle": "",     //子标题
-                "description": "",  //视频描述
-                "copyright": "",  	//版权
-                "title": "",  		//视频标题
-                "review": 0,    	//？？？
+                "description": "",	//视频描述
+                "copyright": "",	//版权
+                "title": "",		//视频标题
+                "review": 0,		//？？？
                 "author": "A路人",   //up主名称
                 "mid": 391679,       //up主uid
                 "is_union_video": 1,  //是否是合作视频，1为是，0为否
