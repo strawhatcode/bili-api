@@ -378,17 +378,17 @@
     "ttl": 1,
     "data": {
         "mid": 391679,	//up主uid
-        "name": "",		//up主名字
+        "name": "",	//up主名字
         "sex": "保密",	//up主性别
-        "face": "",		//up主头像
-        "sign": "",		//up主个性签名
+        "face": "",	//up主头像
+        "sign": "",	//up主个性签名
         "rank": 10000,	//？？
-        "level": 6,		//等级
+        "level": 6,	//等级
         "jointime": 0,	//注册时间
-        "moral": 0,		//？？
+        "moral": 0,	//？？
         "silence": 0,	//？？
         "birthday": "",	//生日
-        "coins": 0,		//硬币
+        "coins": 0,	//硬币
         "fans_badge": true, //粉丝徽章
         "official": {	//官方认证信息
             "role": 1,	//角色？？
