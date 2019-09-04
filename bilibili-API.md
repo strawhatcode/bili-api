@@ -363,6 +363,55 @@
 
 
 
+## up主基本信息api
+
+### https://api.bilibili.com/x/space/acc/info?mid={}
+
+### 参数：
+
+- mid：up主uid
+
+```json
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "mid": 391679,	//up主uid
+        "name": "",		//up主名字
+        "sex": "保密",	//up主性别
+        "face": "",		//up主头像
+        "sign": "",		//up主个性签名
+        "rank": 10000,	//？？
+        "level": 6,		//等级
+        "jointime": 0,	//注册时间
+        "moral": 0,		//？？
+        "silence": 0,	//？？
+        "birthday": "",	//生日
+        "coins": 0,		//硬币
+        "fans_badge": true, //粉丝徽章
+        "official": {	//官方认证信息
+            "role": 1,	//角色？？
+            "title": "bilibili 2018百大UP主、知名UP主", //认证信息
+            "desc": ""	//描述
+        },
+        "vip": { 	//会员信息
+            "type": 2,	//会员类型，2：年度大会员
+            "status": 1,	//会员状态，1：开通，0：未开通
+            "theme_type": 0
+        },
+        "is_followed": false,
+        "top_photo": "",
+        "theme": {},
+        "sys_notice": {}
+    }
+}
+```
+
+
+
+
+
 ## up主充电人数api
 
 ### https://elec.bilibili.com/api/query.rank.do?mid={}
